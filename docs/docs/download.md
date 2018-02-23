@@ -13,16 +13,16 @@ A globally distributed and available CDN is provided, backed by [Amazon Cloudfro
 
 ```html
 <!-- Main Quill library -->
-<script src="//cdn.quilljs.com/{{site.version}}/quill.js"></script>
-<script src="//cdn.quilljs.com/{{site.version}}/quill.min.js"></script>
+<script src="{{site.cdn}}{{site.version}}/quill.js"></script>
+<script src="{{site.cdn}}{{site.version}}/quill.min.js"></script>
 
 <!-- Theme included stylesheets -->
-<link href="//cdn.quilljs.com/{{site.version}}/quill.snow.css" rel="stylesheet">
-<link href="//cdn.quilljs.com/{{site.version}}/quill.bubble.css" rel="stylesheet">
+<link href="{{site.cdn}}{{site.version}}/quill.snow.css" rel="stylesheet">
+<link href="{{site.cdn}}{{site.version}}/quill.bubble.css" rel="stylesheet">
 
 <!-- Core build with no theme, formatting, non-essential modules -->
-<link href="//cdn.quilljs.com/{{site.version}}/quill.core.css" rel="stylesheet">
-<script src="//cdn.quilljs.com/{{site.version}}/quill.core.js"></script>
+<link href="{{site.cdn}}{{site.version}}/quill.core.css" rel="stylesheet">
+<script src="{{site.cdn}}{{site.version}}/quill.core.js"></script>
 ```
 
 

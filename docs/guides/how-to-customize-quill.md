@@ -25,7 +25,7 @@ Quill officially supports a standard toolbar theme [Snow](/docs/themes/#snow) an
 If you would like to drastically change UI interactions, you can omit the `theme` configuration option, which will give you an unstyled Quill editor. You do still need to include a minimal stylesheet that, for example, makes sure spaces render in all browsers and ordered lists are appropriately numbered.
 
 ```html
-<link rel="stylesheet" href="https://cdn.quilljs.com/{{site.version}}/quill.core.css">
+<link rel="stylesheet" href="{{site.cdn}}{{site.version}}/quill.core.css">
 ```
 
 From there you can implement and attach your own UI elements like custom dropdowns or tooltips. The last section of [Cloning Medium with Parchment](/guides/cloning-medium-with-parchment/#final-polish) provides an example of this in action.
@@ -93,7 +93,6 @@ Quill.register(FontAttributor, true);
 Note you still need to add styling for these classes into your CSS files.
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <style>
 .ql-font-roboto {
   font-family: 'Roboto', sans-serif;

@@ -9,7 +9,7 @@ The best way to get started is try a simple example. Quill is initialized with a
 
 ```html
 <!-- Include stylesheet -->
-<link href="https://cdn.quilljs.com/{{site.version}}/quill.snow.css" rel="stylesheet">
+<link href="{{site.cdn}}{{site.version}}/quill.snow.css" rel="stylesheet">
 
 <!-- Create the editor container -->
 <div id="editor">
@@ -19,7 +19,7 @@ The best way to get started is try a simple example. Quill is initialized with a
 </div>
 
 <!-- Include the Quill library -->
-<script src="https://cdn.quilljs.com/{{site.version}}/quill.js"></script>
+<script src="{{site.cdn}}{{site.version}}/quill.js"></script>
 
 <!-- Initialize Quill editor -->
 <script>

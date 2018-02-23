@@ -209,7 +209,7 @@ title: Authorship Module - Quill v0.20
   </div>
 </div>
 <script src="//cdn.quilljs.com/0.20.1/quill.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script>
 var editor = new Quill('#authorship-editor');
